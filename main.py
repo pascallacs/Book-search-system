@@ -21,14 +21,7 @@ async def root():
             "recent_books": "/books/recent/{year}"
         }
     }
-
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
+    
 @app.on_event("startup")
 async def startup():
     app.db_conn = get_db()
