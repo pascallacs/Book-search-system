@@ -1,5 +1,4 @@
 from fastapi import FastAPI, HTTPException
-from fastapi.middleware.cors import CORSMiddleware
 from .models import Book, QueryRequest
 from .database import get_db, get_books, get_books_by_genre, count_books_by_author, get_books_after_year
 from .prompts import generate_response
