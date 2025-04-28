@@ -3,6 +3,7 @@ A FastAPI-powered REST API for searching and recommending books from an SQLite d
 
 
 **STEPS TO RUN**
+
 Install dependencies:
 -bash-
 pip install -r requirements.txt
