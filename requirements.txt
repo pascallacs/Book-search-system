@@ -1,0 +1,4 @@
+fastapi - To build the API
+uvicorn - To run the FastAPI server
+python-dotenv - To load environment variables 
+pydantic - To define and validate the data models
